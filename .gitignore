@@ -1,0 +1,21 @@
+# ==========================================
+# Client-Specific Ignores
+# ==========================================
+client/node_modules/
+client/build/
+client/dist/
+client/.env.local
+
+# ==========================================
+# Server-Specific Ignores
+# ==========================================
+server/node_modules/
+server/dist/
+server/.env
+
+# ==========================================
+# Global / OS Ignores
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
